@@ -1,5 +1,7 @@
 # nuxtdemo
 
+vue init nuxt/starter
+
 > Nuxt.js project
 
 ## Build Setup
