@@ -3,7 +3,7 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        hello World！
+        hello World
         NuxtDemo
       </h1>
       <h2 class="subtitle">
