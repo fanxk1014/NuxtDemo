@@ -10,7 +10,8 @@
                 <a href="/">home</a>
             </li>
             <li>
-                <a href="/news/456">news-1</a>
+                <!-- <a href="/news/456">news-1</a> -->
+                <nuxt-link :to="{name:'news-id',params:{id:456,title:'xiaokun.com'}}">news-1</nuxt-link>
             </li>
             <li>
                 <a href="/news/abc">new-2</a>

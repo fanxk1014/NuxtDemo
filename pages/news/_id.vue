@@ -15,6 +15,28 @@
     export default{
         validate({params}){
             return /^\d+$/.test(params.id)
+        },
+        data(){
+            return {
+                title: this.$route.params.title,
+            }
+        },
+        head(){
+            return {
+                title: this.title,
+                meta: [
+                    {
+                        hid: 'Keywords',
+                        name: 'seo-Keywords-name',
+                        content: 'seo-Keywords-content'
+                    },
+                    {
+                        hid: 'description',
+                        name: 'seo-description-name',
+                        content: 'seo-description-content'
+                    }
+                ]
+            }
         }
     }
 </script>
