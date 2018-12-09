@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p>xiaokun's layout-training</p>
     <nuxt/>
   </div>
 </template>
